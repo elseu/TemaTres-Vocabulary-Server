@@ -1,0 +1,4 @@
+# /etc/cron.d/tematres: crontab fragment for tematres
+
+# m h dom mon dow user	command
+0 4 * * * tematres [ -x /data/www/tematres.acc/bin/backup.sh ] && /data/www/tematres.acc/bin/backup.sh juridisch fiscaal taal

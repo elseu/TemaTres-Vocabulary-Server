@@ -1,0 +1,4 @@
+# /etc/cron.d/tematres: crontab fragment for tematres
+
+# m h dom mon dow user	command
+0 5 * * * tematres [ -x /data/www/tematres.nflt/bin/backup.sh ] && /data/www/tematres.nflt/bin/backup.sh nflt
