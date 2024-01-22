@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: TemaTres-Vocabulary-Server
+  description: "Web application for management formal representations of knowledge, like controlled vocabularies, taxonomies, thesauri and glossaries "
+  annotations:
+    github.com/project-slug: elseu/TemaTres-Vocabulary-Server
+    backstage.io/source-location: url:https://github.com/elseu/TemaTres-Vocabulary-Server/
+  tags:
+    - php
+spec:
+  type: unspecified
+  owner: team-search
+  lifecycle: unspecified
